@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaRegular.eot');
+    src: url('../fonts/ProximaNovaRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ProximaNovaRegular.woff') format('woff'),
+         url('../fonts/ProximaNovaRegular.ttf') format('truetype'),
+         url('../fonts/ProximaNovaRegular.svg#webfont') format('svg');
+}
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+section {
+    padding: 70px 0;
+}
+.main {
+    padding: 50px 0 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-shadow: 0 0 50px rgba(0,0,0,0.15);
+}
+.text {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+#first-letter:first-letter {
+    float: left;
+    font-size: 92px;
+    line-height: 1;
+    margin: 0px 20px 0 0;
+    text-transform: uppercase;
+    font-family: serif;
+ 
+}
+p {
+    color: #000000;
+    font-size: 20px;
+    line-height: 32px;
+}
+h2 {
+    font-family: monospace;
+    font-size: 24px;
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0px;
+}
+button {
+    border: 2px solid orange;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: orange;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+button:hover {
+    border: 2px solid white;
+    background-color: orange;
+    color: white;
+    transition: all .3s ease-in;
+}
+ 
+.button-wrapper {
+    width: 100%;
+    height: 150px;
+     
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    position: relative;
+}
+#my-button {
+    position: absolute;
+    border: 2px solid white;
+    background-color: orange;
+    color: white;
+    transition: all .3s ease-in;
+}
+.text > p {
+    color: #171717;
+}
